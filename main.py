@@ -4,6 +4,10 @@ import pandas as pd
 from collections import defaultdict
 import openpyxl
 
+# This script read the missing drawing list from the excel file.
+# Search the missing file in designated folder, if file is matched, copy to specified folder, not matched add file name to record
+# OUTPUT, the list of missing files + the Copied_drawing folder.
+
 
 # -----------------------------
 # Configuration
